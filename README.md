@@ -4,7 +4,7 @@
 Client is website written in Angular 10.
 Serve is Api project written in .net core 3.1 webapi
 
-For Demo : http://52.15.217.2:8090/
+For Demo : http://dar1l4t88c924.cloudfront.net
 
 
 Requirements
