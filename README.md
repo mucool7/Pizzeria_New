@@ -28,7 +28,7 @@ Note: After running the app please copy the port no on which your api is runing 
 
 1. After Cloning repository and navigate to Client=>pizzeria and run code . to open vscode with project.
 2. Navigate to Client\pizzeria\src\app\Shared\Providers\http.service.ts file and open it on vscode.
-3. update END_POINT with the domain/ipaddress and port no which is used by your api project.
+3. update END_POINT with the domain/ipaddress and port no which is used by your api project.currently it is set to 'http://52.15.217.2/api/'
 4. npm install to install all the packages
 5. ng serve command to run the app on localhost:4200.
 
