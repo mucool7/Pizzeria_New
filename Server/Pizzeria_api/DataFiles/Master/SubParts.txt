@@ -1,0 +1,111 @@
+[
+
+{
+ "PartNo":1,
+  "SubPartNo":1,
+"Name":"Small",
+"Price":90,
+"ImagePath":"https://5.imimg.com/data5/RV/MJ/MY-16339859/pizza-base-500x500.jpg"
+},
+
+{
+ "PartNo":1,
+  "SubPartNo":2,
+"Name":"Medium",
+"Price":110,
+"ImagePath":"https://5.imimg.com/data5/RV/MJ/MY-16339859/pizza-base-500x500.jpg"
+},
+
+{
+ "PartNo":1,
+  "SubPartNo":3,
+"Name":"Large",
+"Price":140,
+"ImagePath":"https://5.imimg.com/data5/RV/MJ/MY-16339859/pizza-base-500x500.jpg"
+},
+{
+ "PartNo":2,
+  "SubPartNo":1,
+"Name":"Marinara",
+"Price":80,
+"ImagePath":"https://cookfasteatwell.com/wp-content/uploads/2019/02/Easy-Pasta-Sauce-Recipe.jpg"
+},
+{
+ "PartNo":2,
+  "SubPartNo":2,
+"Name":"Ranch",
+"Price":115,
+"ImagePath":"https://assets.epicurious.com/photos/54af3721c4a891cc44ccb87f/master/pass/51182850_ranch-dressing_1x1.jpg"
+},
+{
+ "PartNo":2,
+  "SubPartNo":3,
+"Name":"Cheese",
+"Price":90,
+"ImagePath":"https://assets.epicurious.com/photos/57c5bf23082060f11022b575/master/pass/cheese-sauce.jpg"
+},
+{
+ "PartNo":2,
+  "SubPartNo":4,
+"Name":"Mayo",
+"Price":100,
+"ImagePath":"//food.fnr.sndimg.com/content/dam/images/food/fullset/2011/5/3/1/FNM_Ginger-Miso-Mayo_s4x3.jpg.rend.hgtvcom.826.620.suffix/1371597604712.jpeg"
+},
+{
+ "PartNo":3,
+  "SubPartNo":2,
+"Name":"None",
+"Price":0,
+"ImagePath":""
+},
+{
+ "PartNo":3,
+  "SubPartNo":3,
+"Name":"mozzarella",
+"Price":45,
+"ImagePath":"https://www.alphafoodie.com/wp-content/uploads/2020/08/Mozzarella-cheese-500x375.jpeg"
+},
+{
+ "PartNo":3,
+  "SubPartNo":1,
+"Name":"Extra Cheese",
+"Price":130.45,
+"ImagePath":""
+}
+,
+{
+ "PartNo":5,
+  "SubPartNo":1,
+"Name":"Pepperoni",
+"Price":4.7,
+"ImagePath":""
+},
+{
+ "PartNo":5,
+  "SubPartNo":2,
+"Name":"Mushrooms",
+"Price":8,
+"ImagePath":""
+},
+{
+ "PartNo":5,
+  "SubPartNo":3,
+"Name":"Onions",
+"Price":2,
+"ImagePath":""
+},
+{
+ "PartNo":4,
+  "SubPartNo":1,
+"Name":"No",
+"Price":0,
+"ImagePath":""
+},
+{
+ "PartNo":4,
+  "SubPartNo":2,
+"Name":"Add Extra Cheese",
+"Price":20,
+"ImagePath":""
+}
+]

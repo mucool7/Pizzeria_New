@@ -1,0 +1,3 @@
+[{"PartNo":1,"Name":"Crust","IsImage":true,"SubTypes":null},{"PartNo":2,"Name":"Sauce","IsImage":false,"SubTypes":null},{"PartNo":3,"Name":"Cheese","IsImage":false,"SubTypes":null},
+{"PartNo":4,"Name":"Extra Chesse","IsImage":false,"SubTypes":null},
+{"PartNo":5,"Name":"Toping","IsImage":false,"SubTypes":null}]

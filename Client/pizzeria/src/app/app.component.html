@@ -1,0 +1,30 @@
+
+<div>
+  <nav class="navbar navbar-expand-lg navbar-light " style="border-bottom: 1px solid #dfdfdf;">
+    <a class="navbar-brand" [routerLink]="'/home'">Pizzeria</a>
+
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item ">
+          <a class="nav-link" [routerLink]="'/home'" [routerLinkActive]="'active'">Home </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link"  [routerLink]="'/custom'">Custom Pizza</a>
+        </li>
+
+      </ul>
+      <div class="form-inline my-2 my-lg-0">
+
+        <button class="btn btn-outline-success my-2 my-sm-0" [routerLink]="'/history'" [routerLinkActive]="'active'" type="submit">View Orders</button>
+      </div>
+    </div>
+  </nav>
+</div>
+<div >
+
+<div style="min-height: 95vh; background-color: #efefef;">
+  <router-outlet></router-outlet>
+</div>
+
+</div>

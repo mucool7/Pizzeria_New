@@ -1,0 +1,32 @@
+
+[
+{
+  "Name":"Neapolitan Pizza",
+"Img":"http://www.pizzatoday.com/wp-content/uploads/2017/03/RobertasBrooklynPizza-800x600.jpg"
+},
+{
+  "Name":"Chicago Pizza",
+"Img":"https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ15hv2vuVDTWoIsuRA4OCvfKkQsLezYDIRDg&usqp=CAU"
+},
+{
+  "Name":"New York-Style Pizza",
+"Img":"//cdn.shopify.com/s/files/1/0205/9582/articles/NY-Pizza-Pepperoni.jpg?v=1587126497"
+},
+{
+  "Name":"Sicilian Pizza",
+"Img":"https://i0.wp.com/blog.slicelife.com/wp-content/uploads/2019/04/Sicilian.jpg?w=1200&ssl=1 1200w, https://i0.wp.com/blog.slicelife.com/wp-content/uploads/2019/04/Sicilian.jpg?resize=300%2C158&ssl=1 300w, https://i0.wp.com/blog.slicelife.com/wp-content/uploads/2019/04/Sicilian.jpg?resize=768%2C403&ssl=1 768w, https://i0.wp.com/blog.slicelife.com/wp-content/uploads/2019/04/Sicilian.jpg?resize=1024%2C538&ssl=1 1024w, https://i0.wp.com/blog.slicelife.com/wp-content/uploads/2019/04/Sicilian.jpg?resize=600%2C315&ssl=1 600w"
+},
+{
+  "Name":"Detroit Pizza",
+"Img":"https://www.kingarthurbaking.com//sites/default/files/styles/featured_image_sm/public/recipe_legacy/9537-3-large.jpg?itok=eqaMi8mv 1x, /sites/default/files/styles/featured_image_sm_2x/public/recipe_legacy/9537-3-large.jpg?itok=TZT-1GmV 2x"
+},
+{
+  "Name":"Greek Pizza",
+"Img":"https://inquiringchef.com/wp-content/uploads/2020/05/Greek-Pizza_main-photo.jpg"
+},
+{
+  "Name":"California Pizza",
+"Img":"https://pizzaneed.com/wp-content/uploads/2019/09/california-style-pizza-1024x682.jpg"
+}
+
+]

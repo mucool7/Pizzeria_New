@@ -1,0 +1,117 @@
+<!-- <form [formGroup]="Form" (ngSubmit)="PlaceOrder()"> -->
+  <div style="padding: 20px 20px;">
+
+    <div class="container" style="background-color: #fff;padding: 10px;">
+
+      <div>
+        <ng-container *ngIf="Product.ProductNo">
+          <h4>Customise pizza ingredients</h4>
+          <span>You can customize this pizza as per your will. </span>
+        </ng-container>
+        <ng-container *ngIf="!Product.ProductNo">
+          <h4>Custom Pizza made simple </h4>
+          <span>Lets start making!!. </span>
+        </ng-container>
+
+
+        <div>
+          <br>
+          <label *ngIf="!Product.ProductNo">What name you would like to give it</label>
+          <label *ngIf="Product.ProductNo">Pizza Name</label>
+          <div>
+            <input [(ngModel)]="Product.Name" [disabled]="Product.ProductNo" style="color: #404040;font-weight: 500;" class="form-control" placeholder="Name">
+          </div>
+        </div>
+      </div>
+
+      <div class="row" style="margin-top: 10px;">
+
+        <div class="col-md-6">
+
+          <div style="display: flex;padding: 4px 4px;border-bottom: 2px solid #fff;">
+            <div *ngFor="let part of Parts"  style="width: auto;padding: 4px 20px;cursor: pointer;text-transform: uppercase;;" [ngClass]="{'selectedc':SelectedPart ==part.PartNo}" (click)="SelectedPart=part.PartNo">
+              <span >{{part.Name}}</span>
+            </div>
+            <!-- <div  style="width: auto;padding: 4px 20px;cursor: pointer;text-transform: uppercase;;" [ngClass]="{'selectedc':SelectedPart ==-1}" (click)="SelectedPart=-1">
+              <span >Price Breakup</span>
+            </div> -->
+
+          </div>
+          <div>
+            <div *ngFor="let part of Parts" [hidden]="part.PartNo != SelectedPart" style="display: flex;padding: 20px;">
+              <ng-container *ngFor="let subpart of SubParts">
+                <div *ngIf="subpart.PartNo == part.PartNo" [ngClass]="{'selectedsubpartc':IsSelected(part.PartNo,subpart.SubPartNo)}" (click)="updateProduct(part.PartNo,subpart.SubPartNo)" style="width: 150px;cursor: pointer;; height: 150px;border:1px solid #efefef;margin: 4px;text-align: center;">
+                  <h6>{{subpart.Name}}</h6>
+                  <div style="width:100%">
+                    <img [src]="subpart.ImagePath" style="width: 100%;height: 90px;" />
+                  </div>
+                  <div>+ ${{subpart.Price}}</div>
+                </div>
+              </ng-container>
+
+            </div>
+            <div>
+
+                 <div></div>
+
+            </div>
+
+            <!-- <div style="position: absolute;bottom: 0px;border-top: 2px solid #efefef;width: 100%;">
+              {{CustomizationSelections}}
+            </div> -->
+          </div>
+
+
+        </div>
+        <div class="col-md-3" >
+
+          <img class="card-img-top" src="{{Product.Image?Product.Image:DummyImage}}" alt="Card image cap" style="height: 250px;">
+
+          <div>
+            <h4 > $ {{Product.TotalPrice | number :'1.2-2'}} <small style="font-weight: normal;font-size: 1rem;">(Excluding Tax)</small></h4>
+          </div>
+          <button type="submit" class="btn btn-small btn-danger" (click)="AddToOrder()" >Place Order</button>
+        </div>
+        <div class="col-md-3">
+        <h6 class="text-center" style="border-bottom: 1px solid #dfdfdf;padding-bottom: 4px;">
+          Price Breakup
+        </h6>
+        <div >
+
+          <div *ngFor="let part of Parts" style="font-size: 0.9rem;">
+
+
+            <span style="text-transform: uppercase;">{{part.Name }}</span>
+                  <div style="font-weight: 500;">
+                    <span style="visibility: hidden;">s</span>
+                    {{GetSelectedSubPart(part.PartNo).Name}}
+                    <span style="position: absolute;right:10px;">
+                      {{GetSelectedSubPart(part.PartNo).Price | number :'1.2-2'}}
+
+                    </span>
+                  </div>
+
+          </div>
+          <div style="padding-top: 5px;border-top: 2px solid #dfdfdf;margin-top: 5px;font-weight: 500;">
+            Total
+            <span style="position: absolute;right:10px; ">
+              {{Product.TotalPrice | number :'1.2-2'}}
+
+            </span>
+          </div>
+
+        </div>
+        </div>
+
+
+      </div>
+      <div class="row" style="margin-top: 10px;">
+
+      </div>
+
+
+    </div>
+
+  </div>
+
+<!-- </form> -->

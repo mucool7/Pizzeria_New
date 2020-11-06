@@ -1,0 +1,30 @@
+
+
+<div class="container" style="background-color: #fff;">
+
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Order Number</th>
+        <th>Order Date</th>
+        <th>Order Time</th>
+        <th>Item Description</th>
+        <th>Item Type</th>
+        <th>Total Price</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let order of Orders" style="padding:  8px;">
+
+        <td>{{order.OrderNumber}}</td>
+        <td>{{order.OrderDate | date: 'M/dd/yyyy'}}</td>
+        <td>{{order.OrderDate | date: 'hh:mm:a'}}</td>
+        <td>{{order.Products[0].Name}}</td>
+        <td>{{order.Products[0].ProductType ==1 || order.Products[0].ProductType == 2?'Chef Made' :'Customized'}}</td>
+        <td ><b>$ {{order.TotalPrice | number :'1.2-2'}}</b></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+</div>
